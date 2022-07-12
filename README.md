@@ -1,5 +1,30 @@
 # HTCondor en contenedores
 
+## Quickstart
+
+Para hacer el despliegue de HTCondor ejecute los siguientes comandos:
+
+```
+./01_htcondor_pool_run.sh  
+./02_htcondor_pool_start.sh  
+```
+
+Estos scripts permiten el levantar los contenedores necesarios para crear un *pool* de HTCondor.
+Una vez estos contenedores estén arriba se procede a ingresar al nodo que le permitirá el uso del *pool*.
+
+```
+./03_htcondor_pool_get_access.sh
+```
+
+Una vez dentro del contenedor, ingresar a la carpetar `htcondor_examples` y revisar estos ejemplos en este orden:
+
+* `command_line` 
+* `mi_binario` 
+* `mi_dag` 
+
+
+## La forma extensa de desplegar el cluster de HTCondor
+
 Este repositorio contiene scripts y archivos de HTCondor donde se ejemplifica su uso. 
 
 ---
