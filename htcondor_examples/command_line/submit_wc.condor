@@ -2,7 +2,7 @@ executable = /usr/bin/wc
 arguments = -l
 
 input = asimovtale.txt
-output = output.submit
+output = output.$(process).submit
 error = error.submit
 log = log.submit
 
