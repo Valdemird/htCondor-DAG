@@ -1,6 +1,16 @@
 # HTCondor en contenedores
 
+* [Quickstart](#quickstart)
+  * [Usando scripts](#usando-scripts)
+  * [Usando docker-compose](#usando-docker-compose)
+* [La forma extensa de desplegar el cluster de HTCondor](#la-forma-extensa-de-desplegar-el-cluster-de-htcondor)
+  * [Creación de usuario en `access` node](#creación-de-usuario-en-access-node)
+  * [josanabr/htcondor-submit:9.9.3](#josanabr/htcondor-submit:9.9.3)
+* [Referencias](#referencias)
+
 ## Quickstart
+
+### Usando scripts
 
 Para hacer el despliegue de HTCondor ejecute los siguientes comandos:
 
@@ -22,6 +32,19 @@ Una vez dentro del contenedor, ingresar a la carpetar `htcondor_examples` y revi
 * `mi_binario` 
 * `mi_dag` 
 
+### Usando `docker-compose`
+
+Para lanzar la ejecución del cluster de HTCondor usando `docker-compose` se ejecuta el usual:
+
+```
+docker-compose up
+```
+
+Para ingresar al nodo de envío de tareas y testear el cluster, ejecutar:
+
+```
+docker-compose exec --user user access /bin/bash
+```
 
 ## La forma extensa de desplegar el cluster de HTCondor
 
@@ -170,7 +193,7 @@ docker container exec -it --user user access /bin/bash
 condor_q
 ```
 
-### `josanabr/htcondor-submit:9.9.3` 
+### josanabr/htcondor-submit:9.9.3 
 
 En esta nueva versión de esta imagen ya se tiene el usuario `user`.
 
