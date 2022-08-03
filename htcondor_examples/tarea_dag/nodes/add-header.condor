@@ -1,0 +1,10 @@
+executable   = add-header.sh
+
+transfer_input_files = add-header.sh,../output/datos-adultos-us.csv
+
+error        = ../logs/error.submit
+log          = ../logs/log.submit
+
+should_transfer_files = yes
+
+queue

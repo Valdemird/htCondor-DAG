@@ -1,0 +1,9 @@
+JOB DOWNLOAD download.condor DIR nodes
+JOB CLEAN clean.condor DIR nodes
+JOB ADD_HEADER add-header.condor DIR nodes
+JOB FILTER4 filter4.condor DIR nodes
+JOB FILTER5 filter5.condor DIR nodes
+JOB FILTER6 filter6.condor DIR nodes
+PARENT DOWNLOAD CHILD CLEAN
+PARENT CLEAN CHILD ADD_HEADER
+PARENT ADD_HEADER CHILD FILTER4 FILTER5 FILTER6

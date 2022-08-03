@@ -1,0 +1,11 @@
+executable   = download.sh
+
+transfer_input_files = download.sh
+
+output       = datos-adultos-us.csv
+error        = error.submit
+log          = log.submit
+
+should_transfer_files = yes
+
+queue

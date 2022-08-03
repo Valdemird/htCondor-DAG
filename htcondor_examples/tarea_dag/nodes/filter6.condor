@@ -1,0 +1,10 @@
+executable   = filter6.sh
+
+transfer_input_files = filter6.sh,datos-adultos-us.csv
+output       = reporte_3.txt
+error        = error.submit
+log          = log.submit
+
+should_transfer_files = yes
+
+queue
