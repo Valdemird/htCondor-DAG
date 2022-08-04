@@ -1,0 +1,5 @@
+número de registros:
+32562 datos-adultos-us.csv
+
+número de registros con información incompleta
+2399

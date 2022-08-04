@@ -1,0 +1,132 @@
+000 (014.000.000) 2022-08-04 02:16:57 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: DOWNLOAD
+...
+001 (014.000.000) 2022-08-04 02:17:16 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (014.000.000) 2022-08-04 02:17:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3974859  -  Run Bytes Sent By Job
+	92  -  Run Bytes Received By Job
+	3974859  -  Total Bytes Sent By Job
+	92  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3891        2  30805361 
+	   Memory (MB)          :        6        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:19Z with exit-code 0.
+...
+000 (015.000.000) 2022-08-04 02:17:27 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: CLEAN
+...
+001 (015.000.000) 2022-08-04 02:17:28 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (015.000.000) 2022-08-04 02:17:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3965885  -  Run Bytes Sent By Job
+	3974515  -  Run Bytes Received By Job
+	3965885  -  Total Bytes Sent By Job
+	3974515  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3882     4000  30805361 
+	   Memory (MB)          :        7        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:28Z with exit-code 0.
+...
+000 (016.000.000) 2022-08-04 02:17:37 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: ADD_HEADER
+...
+001 (016.000.000) 2022-08-04 02:17:38 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (016.000.000) 2022-08-04 02:17:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3965928  -  Run Bytes Sent By Job
+	3965972  -  Run Bytes Received By Job
+	3965928  -  Total Bytes Sent By Job
+	3965972  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3882     4000  30805361 
+	   Memory (MB)          :        7        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:38Z with exit-code 0.
+...
+000 (017.000.000) 2022-08-04 02:17:47 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: FILTER4
+...
+000 (018.000.000) 2022-08-04 02:17:47 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: FILTER5
+...
+000 (019.000.000) 2022-08-04 02:17:47 Job submitted from host: <172.22.0.4:9618?addrs=172.22.0.4-9618&alias=access.demo.org&noUDP&sock=schedd_9_10d8>
+    DAG Node: FILTER6
+...
+001 (017.000.000) 2022-08-04 02:17:48 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (017.000.000) 2022-08-04 02:17:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1018509  -  Run Bytes Sent By Job
+	3965983  -  Run Bytes Received By Job
+	1018509  -  Total Bytes Sent By Job
+	3965983  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     4877     4000  30805361 
+	   Memory (MB)          :        7        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:48Z with exit-code 0.
+...
+001 (018.000.000) 2022-08-04 02:17:49 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (018.000.000) 2022-08-04 02:17:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	563408  -  Run Bytes Sent By Job
+	3966283  -  Run Bytes Received By Job
+	563408  -  Total Bytes Sent By Job
+	3966283  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     4433     4000  30805361 
+	   Memory (MB)          :        7        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:50Z with exit-code 0.
+...
+001 (019.000.000) 2022-08-04 02:17:51 Job executing on host: <172.22.0.2:9618?addrs=172.22.0.2-9618&alias=exe01.demo.org&noUDP&sock=startd_8_6140>
+...
+005 (019.000.000) 2022-08-04 02:17:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	559971  -  Run Bytes Sent By Job
+	3966268  -  Run Bytes Received By Job
+	559971  -  Total Bytes Sent By Job
+	3966268  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     4429     4000  30805361 
+	   Memory (MB)          :        7        1      1087 
+
+	Job terminated of its own accord at 2022-08-04T02:17:51Z with exit-code 0.
+...

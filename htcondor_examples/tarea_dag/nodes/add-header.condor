@@ -1,9 +1,9 @@
 executable   = add-header.sh
 
-transfer_input_files = add-header.sh,../output/datos-adultos-us.csv
+transfer_input_files = add-header.sh,datos-adultos-us.csv
 
-error        = ../logs/error.submit
-log          = ../logs/log.submit
+error        = error.submit
+log          = log.submit
 
 should_transfer_files = yes
 

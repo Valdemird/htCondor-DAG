@@ -1,3 +1,0 @@
-JOB READ readf.condor
-JOB STORE storef.condor
-PARENT STORE CHILD READ
